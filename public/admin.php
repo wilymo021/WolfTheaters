@@ -29,6 +29,10 @@
         	<li><a href="create_employee.php">Add New Employee</a></li>
         	<li><a href="update_employee.php">Update Employee Information</a></li>
         	<li><a href="delete_employee.php">Remove Employee</a></li>
+          <li><a href="read_schedule.php">View Employee Schedules</a></li>
+          <li><a href="create_schedule.php">Add Employee Schedule</a></li>
+          <li><a href="update_schedule.php">Update Employee Schedule</a></li>
+          <li><a href="delete_schedule.php">Delete Employee Schedule</a></li>
         	<li><a href="logout.php">Logout</a></li>
         </ul>
 
