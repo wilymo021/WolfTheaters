@@ -1,7 +1,7 @@
 <html>
 
   <head>
-    <title> Employees: Schedule </title>
+    <title> Employee: Home</title>
   </head>
 
   <body>
@@ -26,7 +26,17 @@
         <h2> Employee Menu </h2>
 
         <ul>
-          create links for non-manager employees
+          //create links for non-manager employees
+          //display schedule in calendar form
+          //so database has access to row for specific employee
+          //no managerial access; no CRUD capebilities except for request off
+          //???possibly create table in SQL of request for days off
+            //primary key is employee id
+            //their name
+            //day they want off
+            //reason they want it off
+          //ability to request off
+          <li><a href="request_off.php">Request Off</a></li>
         </ul>
 
       </div>
