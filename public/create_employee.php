@@ -6,7 +6,7 @@
     <body>
 
     <?php require_once("../includes/connect_db.php"); ?>
-      <form action="create_form.php" method="post">
+      <form action="create_employee_form.php" method="post">
         <p>Enter the new employee's information: </p>
         First Name: <input type="text" name="FName" value='' /><br />
         Last Name: <input type="text" name="LName" value='' /><br />
