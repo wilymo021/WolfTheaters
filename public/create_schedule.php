@@ -5,7 +5,9 @@
     </title>
     <body>
 
-    <?php require_once("../includes/connect_db.php"); ?>
+    <?php require_once("../includes/connect_db.php"); 
+      #good for now; maybe change method of adding later
+    ?>
       <form action="create_schedule_form.php" method="post">
         <p>Enter the Employee's Name: </p>
         First Name: <input type="text" name="FName" value='' /><br />

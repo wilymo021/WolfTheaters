@@ -25,7 +25,7 @@
 
 		//otherwise redirect b/c no form submission was made
 
-		header("Location: create_employee.php");
+		header("Location: read_schedule.php");
 		exit;
 	}
 	

@@ -33,6 +33,7 @@
           <li><a href="create_schedule.php">Add Employee Schedule</a></li>
           <li><a href="update_schedule.php">Update Employee Schedule</a></li>
           <li><a href="delete_schedule.php">Delete Employee Schedule</a></li>
+          <li><a href="view_requests_off.php">View Requests Off</a></li>
         	<li><a href="logout.php">Logout</a></li>
         </ul>
 

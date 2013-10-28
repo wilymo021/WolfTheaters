@@ -28,7 +28,7 @@
 
 	} else {
 		//otherwise redirect b/c no form submission was made
-		header("Location: create_employee.php");
+		header("Location: update_employee.php");
 		exit;
 	}
 

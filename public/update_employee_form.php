@@ -26,7 +26,7 @@
 
 	} else {
 		//otherwise redirect b/c no form submission was made
-		header("Location: create_employee.php");
+		header("Location: update_employee.php");
 		exit;
 	}
 
@@ -41,7 +41,7 @@
     <body>
 
     <?php require_once("../includes/connect_db.php"); ?>
-      <p>Update the information you'd like to change,: </p>
+      <p>Update the information you'd like to change: </p>
       <form action="update_employee_form2.php" method="post">
       	ID: <input type="text" name="EID" value=<?php $ID ?> /> <br />
         First Name: <input type="text" name="FName" value=<?php $First ?> /><br />
