@@ -17,6 +17,7 @@
 		  $result = $stmt->setFetchMode(PDO::FETCH_NUM);
 
 		  	$ID = $stmt->fetch();
+		  	$EID = $ID[0];
 
 //		  header("Location: ../public/update_employee2.php");
 //		  exit;
@@ -43,9 +44,9 @@
     <?php require_once("../includes/connect_db.php"); ?>
       <p>Update the information you'd like to change: </p>
       <form action="update_employee_form2.php" method="post">
-      	ID: <input type="text" name="EID" value=<?php $ID ?> /> <br />
-        First Name: <input type="text" name="FName" value=<?php $First ?> /><br />
-        Last Name: <input type="text" name="LName" value=<?php $Last ?> /><br />
+      	ID: <input type="text" name="EID" value=<?php echo $EID ?> /> <br />
+        First Name: <input type="text" name="FName" value=<?php echo $First ?> /><br />
+        Last Name: <input type="text" name="LName" value=<?php echo $Last ?> /><br />
         <br />
         <input type="submit" name="submit" value="Update Information" />
       </form>

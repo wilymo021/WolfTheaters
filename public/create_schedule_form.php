@@ -57,9 +57,9 @@
         Date:       <input type="date" name="WorkDate" />    <br />
         Start Time: <input type="time" name="ShiftStart">    <br />
         End Time:   <input type="time" name="ShiftEnd">      <br />
-              	    <input type="hidden" name="EID" value=<?php echo $EID ?> > <br />
-                    <input type="hidden" name="First" value=<?php echo $First ?> > <br />
-                    <input type="hidden" name="Last" value=<?php echo $Last ?> > <br />
+              	    <input type="hidden" name="EID" value=<?php echo $EID ?> >
+                    <input type="hidden" name="First" value=<?php echo $First ?> >
+                    <input type="hidden" name="Last" value=<?php echo $Last ?> >
         <br />
 
         <input type="submit" name="submit" value="Add Schedule" />

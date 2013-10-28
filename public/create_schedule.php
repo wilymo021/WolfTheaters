@@ -13,7 +13,7 @@
         First Name: <input type="text" name="FName" value='' /><br />
         Last Name: <input type="text" name="LName" value='' /><br />
         <br />
-        <input type="submit" name="submit" value="Add Schedule" />
+        <input type="submit" name="submit" value="Next" />
       </form>
       <a href ="admin.php"> Cancel</a>
     </body>
